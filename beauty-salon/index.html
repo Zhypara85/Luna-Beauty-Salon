@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Beauty Salon - Feel Beautiful. Feel Confident.</title>
+    <!-- Elegant Typography: Playfair Display for Headings, Montserrat for Body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">
+                <a href="#home">Luna Beauty Salon</a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button (Hamburger) -->
+            <button class="nav-toggle" aria-label="Toggle Menu" aria-controls="nav-menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#book" class="btn btn-primary nav-book-btn">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Feel Beautiful.<br>Feel Confident.</h1>
+                <p class="hero-description">Professional beauty services designed to help you look and feel your best.</p>
+                <div class="hero-buttons">
+                    <a href="#book" class="btn btn-primary">Book Appointment</a>
+                    <a href="#services" class="btn btn-secondary">View Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Our Services</span>
+                    <h2 class="section-title">Indulge in Our Premium Treatments</h2>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1: Hair Styling -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/hair-styling.jpg" alt="Professional hair styling and blowouts" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-name">Hair Styling</h3>
+                            <p class="service-description">Haircut, styling, coloring, and professional hair treatments.</p>
+                            <span class="service-price">From $45</span>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Manicure & Pedicure -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/manicure.jpg" alt="A soothing manicure and pedicure session" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-name">Manicure & Pedicure</h3>
+                            <p class="service-description">Professional nail care, polish, and relaxing treatments.</p>
+                            <span class="service-price">From $35</span>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Makeup -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/makeup.jpg" alt="Professional makeup application" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-name">Makeup</h3>
+                            <p class="service-description">Professional makeup for weddings, events, photoshoots, and special occasions.</p>
+                            <span class="service-price">From $60</span>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Facial Treatment -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/facial.jpg" alt="Relaxing facial and skincare massage" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-name">Facial Treatment</h3>
+                            <p class="service-description">Relaxing skincare treatments designed to refresh and rejuvenate the skin.</p>
+                            <span class="service-price">From $55</span>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: Eyebrows & Lashes -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/eyebrows.jpg" alt="Eyebrow shaping and tinting" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-name">Eyebrows & Lashes</h3>
+                            <p class="service-description">Eyebrow shaping, tinting, lash lift, and other beauty services.</p>
+                            <span class="service-price">From $30</span>
+                        </div>
+                    </div>
+
+                    <!-- Service 6: Hair Coloring -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/hair-coloring.jpg" alt="Professional hair coloring process" loading="lazy">
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-name">Hair Coloring</h3>
+                            <p class="service-description">Professional coloring, highlights, balayage, and color consultation.</p>
+                            <span class="service-price">From $80</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-content">
+                        <span class="section-subtitle">Since 2018</span>
+                        <h2 class="section-title">About Luna Beauty Salon</h2>
+                        <div class="divider align-left"></div>
+                        <p class="about-text">
+                            Luna Beauty Salon is dedicated to providing professional beauty services in a relaxing and welcoming environment. Our experienced beauty specialists help every client feel confident and beautiful.
+                        </p>
+
+                        <!-- Highlights Grid -->
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-icon"><i class="fa-solid fa-user-tie"></i></span>
+                                <h4 class="highlight-title">Professional Stylists</h4>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon"><i class="fa-solid fa-sparkles"></i></span>
+                                <h4 class="highlight-title">Quality Products</h4>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon"><i class="fa-solid fa-couch"></i></span>
+                                <h4 class="highlight-title">Relaxing Atmosphere</h4>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon"><i class="fa-solid fa-heart"></i></span>
+                                <h4 class="highlight-title">Personalized Service</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="about-image-stack">
+                            <img src="images/gallery5.jpg" alt="Interior look of Luna Beauty Salon" class="about-img-main">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Our Gallery</span>
+                    <h2 class="section-title">A Glimpse of Our Artistry</h2>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/gallery1.jpg" alt="Beautiful haircut and blow dry styling" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery2.jpg" alt="Classy nail extensions and polish" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery3.jpg" alt="Stunning wedding glow-up makeup" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery4.jpg" alt="Relaxing organic facial mask" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery5.jpg" alt="Our sleek, relaxing salon main room" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery6.jpg" alt="Precision hair coloring detail" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book & Contact Grid Section -->
+        <div id="book" class="contact-booking-wrapper">
+            <div class="container">
+                <div class="grid-two-cols">
+
+                    <!-- Appointment Form -->
+                    <section class="booking-section">
+                        <div class="card booking-card">
+                            <h3 class="card-title">Book an Appointment</h3>
+                            <p class="card-subtitle">Take the first step to looking and feeling your best.</p>
+
+                            <!-- Success Message Box -->
+                            <div id="appointment-success" class="alert alert-success hidden" role="alert">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Thank you! Your appointment request has been received.</span>
+                            </div>
+
+                            <form id="appointment-form" novalidate>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label for="full-name">Full Name <span class="required">*</span></label>
+                                        <input type="text" id="full-name" name="name" placeholder="Jane Doe" required>
+                                        <span class="error-msg" id="name-error">Please enter your full name.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">Email <span class="required">*</span></label>
+                                        <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                                        <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="phone">Phone <span class="required">*</span></label>
+                                        <input type="tel" id="phone" name="phone" placeholder="(312) 555-0123" required>
+                                        <span class="error-msg" id="phone-error">Please enter your phone number.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="service">Service <span class="required">*</span></label>
+                                        <select id="service" name="service" required>
+                                            <option value="" disabled selected>Select a Service</option>
+                                            <option value="hair-styling">Hair Styling - From $45</option>
+                                            <option value="nails">Manicure & Pedicure - From $35</option>
+                                            <option value="makeup">Makeup - From $60</option>
+                                            <option value="facial">Facial Treatment - From $55</option>
+                                            <option value="eyebrows">Eyebrows & Lashes - From $30</option>
+                                            <option value="hair-coloring">Hair Coloring - From $80</option>
+                                        </select>
+                                        <span class="error-msg" id="service-error">Please select a service.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="date">Preferred Date <span class="required">*</span></label>
+                                        <input type="date" id="date" name="date" required>
+                                        <span class="error-msg" id="date-error">Please select a date.</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="time">Preferred Time <span class="required">*</span></label>
+                                        <input type="time" id="time" name="time" required>
+                                        <span class="error-msg" id="time-error">Please select a preferred time.</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message (Optional)</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Any special instructions or preferences..."></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-block">Book Appointment</button>
+                            </form>
+                        </div>
+                    </section>
+
+                    <!-- Contact Details Section -->
+                    <section id="contact" class="contact-section">
+                        <div class="contact-details">
+                            <span class="section-subtitle">Get in Touch</span>
+                            <h2 class="contact-brand">Luna Beauty Salon</h2>
+                            <div class="divider align-left"></div>
+
+                            <div class="contact-info-list">
+                                <div class="contact-info-item">
+                                    <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                    <div class="contact-text">
+                                        <h4>Address</h4>
+                                        <p>123 Beauty Avenue<br>Chicago, IL</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+                                    <div class="contact-text">
+                                        <h4>Phone</h4>
+                                        <p><a href="tel:3125550123" class="contact-link">(312) 555-0123</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+                                    <div class="contact-text">
+                                        <h4>Email</h4>
+                                        <p><a href="mailto:hello@lunabeautysalon.com" class="contact-link">hello@lunabeautysalon.com</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <span class="contact-icon"><i class="fa-solid fa-clock"></i></span>
+                                    <div class="contact-text">
+                                        <h4>Hours</h4>
+                                        <ul class="hours-list">
+                                            <li><span>Monday–Friday:</span> <span>9:00 AM–7:00 PM</span></li>
+                                            <li><span>Saturday:</span> <span>9:00 AM–6:00 PM</span></li>
+                                            <li><span>Sunday:</span> <span>10:00 AM–4:00 PM</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home">Luna Beauty Salon</a>
+                    <p>Elevating beauty & self-care daily.</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-link">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luna Beauty Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
